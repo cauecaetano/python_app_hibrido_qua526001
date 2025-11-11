@@ -39,11 +39,12 @@ def main():
                 limpar()
                 continue 
             case "3":
-                pass
+                usuario.exibir_dados()
+                continue
             case "4":
-                pass
+                empresa.exibir_dados()
+                continue
             case "5":
-                limpar()
                 print("Programa encerrado. ")
                 break
             case _:
